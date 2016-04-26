@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning_bootstrap", "Learning_bootstrap\Learning_bootstrap.csproj", "{A7D5B0B3-219C-49F8-A1D5-F8C16038E42C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning", "Learning\Learning.csproj", "{A7D5B0B3-219C-49F8-A1D5-F8C16038E42C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning_bootstrap.Tests", "Learning_bootstrap.Tests\Learning_bootstrap.Tests.csproj", "{1122216C-AAA0-4CF3-A818-6DF19FB28843}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.Tests", "Learning.Tests\Learning.Tests.csproj", "{1122216C-AAA0-4CF3-A818-6DF19FB28843}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
