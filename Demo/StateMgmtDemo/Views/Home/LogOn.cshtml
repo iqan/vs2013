@@ -1,0 +1,23 @@
+﻿@model StateMgmtDemo.Models.User
+
+@{
+    ViewBag.Title = "Log On";
+}
+
+<h2>Log On</h2>
+
+Hi,
+@Model.UserName
+@Model.Password
+
+<br/>
+Your temp data:
+@TempData["sname"].ToString()
+@TempData["fname"].ToString()
+
+<br />
+Your session data:
+@Session["sname2"].ToString()
+@Session["fname2"].ToString()
+
+

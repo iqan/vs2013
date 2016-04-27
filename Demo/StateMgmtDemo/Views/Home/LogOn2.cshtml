@@ -1,0 +1,35 @@
+﻿@model StateMgmtDemo.Models.User
+
+@{
+    ViewBag.Title = "Log On 2";
+}
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+<script>
+    $(function () {
+        $("#datepicker").datepicker();
+        $("#x").val("hello");
+    });
+
+    $(function () {
+        var myDate = new Date();
+        
+        var prettyDate = (myDate.getMonth() + 1) + '/' + myDate.getDate() + '/' +
+myDate.getFullYear() + " " + myDate.getHours().toString() + ":" + myDate.getMinutes().toString() + ":" + myDate.getSeconds().toString();
+        $("#xx").val(prettyDate);
+    });
+
+    function burra() {
+        var x = document.getElementById("datepicker").value;
+        document.getElementById("xxx").value = x;    
+    }
+    
+</script>
+
+<p>Date: <input type="text" id="datepicker" onchange="burra()">
+</p>
+<input type="text" id="x"/>
+<input type="text" id="xx"/>
+<input type="text" id="xxx" />
