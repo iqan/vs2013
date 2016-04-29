@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Learning_bootstrap.Add2NumASMXService {
+namespace Learning.Add2NumASMXService {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -23,12 +23,12 @@ namespace Learning_bootstrap.Add2NumASMXService {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface Add2NumSoapChannel : Learning_bootstrap.Add2NumASMXService.Add2NumSoap, System.ServiceModel.IClientChannel {
+    public interface Add2NumSoapChannel : Learning.Add2NumASMXService.Add2NumSoap, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class Add2NumSoapClient : System.ServiceModel.ClientBase<Learning_bootstrap.Add2NumASMXService.Add2NumSoap>, Learning_bootstrap.Add2NumASMXService.Add2NumSoap {
+    public partial class Add2NumSoapClient : System.ServiceModel.ClientBase<Learning.Add2NumASMXService.Add2NumSoap>, Learning.Add2NumASMXService.Add2NumSoap {
         
         public Add2NumSoapClient() {
         }

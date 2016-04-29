@@ -184,6 +184,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DemoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\WebServicesController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
@@ -191,6 +192,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\TempModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service References\Add2NumASMXService\Reference.cs">
       <AutoGen>True</AutoGen>
@@ -323,6 +325,9 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\WebServices\Index.cshtml" />
     <None Include="Service References\Add2NumASMXService\Add2Num.wsdl" />
+    <Content Include="Views\Demo\Index.cshtml" />
+    <Content Include="Views\Demo\Threading.cshtml" />
+    <Content Include="Views\Demo\LinqDemo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "LinqDemo";
+}
+
+<script type="text/javascript" language="javascript">
+    //$(function () {
+    //    $('#listColor').value = $('#colorName').value;
+    //});
+
+    //function AddNewColor() {
+    //    str += document.getElementById('colorName').value.toString() + " ";
+    //    //alert(str);
+    //    $('#listColor').html(str);
+    //}
+</script>
+
+<h2>Linq Demo</h2>
+
+@using (Html.BeginForm("LinqDemo","Demo")){
+<table>
+    <tbody>
+    <tr>
+        <td>
+            Enter Color :
+        </td>
+        <td>
+            @Html.TextBox("ColorName")
+        </td>
+    </tr>
+    <tr>
+        <td>
+
+        </td>
+        <td>
+            @*<input type="button" id="btnAdd" value="Add" onclick="AddNewColor()"/>*@
+            <input type="submit" value="Add Color"/>
+        </td>
+    </tr>
+    </tbody>
+</table>
+}
+
+<br/>
+<div>
+    <b>Colors:</b><br/>
+    <p>@TempData["col"].ToString()</p>
+</div>
