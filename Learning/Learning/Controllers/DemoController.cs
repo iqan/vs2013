@@ -28,16 +28,15 @@ namespace Learning.Controllers
 
         public ActionResult LinqDemo()
         {
-            TempData["col"] = "";
+            Session["col"] = "";
             return View();
         }
 
         [HttpPost]
         public ActionResult LinqDemo(string colorName)
         {
-            TempData["col"] += colorName;
-            TempData["col"] += " ";
-            TempData.Keep();
+            Session["col"] += colorName;
+            Session["col"] += " ";
             return View();
         }
     }
