@@ -12,12 +12,13 @@
         WebMail.SmtpPort = 587;
         WebMail.EnableSsl = true;
         WebMail.UserName = "iqan.shaikh@gmail.com";
-        WebMail.Password = "password";
-        WebMail.From = "iqan.shaikh@gmail.com";
+        WebMail.Password = "Enter Your Password Here";
+        WebMail.From = "Iqan.Shaikh@gmail.com";
 
         WebMail.Send(@Model.Email, "RSVP Notification",
-           "Hello" + Model.Name + ", " + "You are" + ((Model.WillAttend ?? false) ? "" : "not ")
+           "Hello " + Model.Name + ", " + "You are " + ((Model.WillAttend ?? false) ? "" : "not ")
                + "attending the party.");
+        @:<b>An email to confirm your RSVP is send to @Model.Email.</b>
     }
     catch (Exception)
     {
